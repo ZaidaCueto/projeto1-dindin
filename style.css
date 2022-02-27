@@ -19,12 +19,13 @@ a{
 
 /* header */
 header{
+  
     display: flex;
     justify-content:space-between;
     align-items: center;
     background-color:  #419488;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-   
+    height: 117px;
     flex-wrap: wrap;
 } 
  header div { 
@@ -39,14 +40,14 @@ header ul {
 }
 header ul li {
     padding: 10px;
-}
+} 
 
 
 
 /* footer */
 
 footer{
-    margin-top: 50px;
+   
 
     display: flex;
     justify-content:space-around;
@@ -74,6 +75,87 @@ footer{
     padding: 10px;
     margin: 15px;
 
+} 
+/* aqui começa a estilização de index.html */
+
+
+
+
+
+/*  aqui começa a estilização de contato.html*/
+.container-contatos{
+
+    max-width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+.container-contatos div h2 {
+    margin-top: 200px;
+    font-size: 40px;
+    color: #FF4081;
+    
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    
+}
+input{ 
+    text-indent:3%;
+    margin-top: 20px;
+    left: 0.6%;
+    right: 0%;
+    top: 21.48%;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    Width:493px;
+    Height:32px;
+    font-size: 16px;
+    
+
+
+}
+textarea{
+    text-indent:3%;
+    margin-top:20px;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    Width:493px;
+    Height:193px; 
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+}
+.enviar-contato{
+    margin-top: 20px;
+    font-family: nunito;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    font-weight: bold;
+   font-family: Nunito;
+   font-weight: 800;
+   font-size: 20px;
+   background-color: #FF4081;
+   border: solid 10px #FF4081 ;
+   border-radius: 50px ;
+   width: 20%;
+   margin-bottom: 202px;
+
+}
+.imagem-contato{
+
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 444px;
+    height: 444px;
+background: url(./image/ilustra-contato.png);
+    
+}
+
+
 
 
