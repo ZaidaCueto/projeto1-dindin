@@ -78,6 +78,227 @@ footer{
 } 
 /* aqui começa a estilização de index.html */
 
+ .inicio{
+
+    height: 2500px;
+   
+    margin-top: 100px;
+}
+.container-educaco-finaceira{
+   display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.container-educaco-finaceira-items{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;  
+}
+ .container-educaco-finaceira div h1{
+    Width : 462px;
+    Height: 62px;
+    font-weight: bold;
+    font-size: 60px;
+    color: #FF4081; 
+}
+.container-educaco-finaceira div p{
+    font-size: 27px;
+    line-height: 31px;
+    color:#555555;
+    margin-top: 20%;
+}
+.container-educaco-finaceira div a{
+    border: solid 1px #FF4081;
+    border-radius: 62px;
+    padding: 15px;
+    color: #FF4081;
+    font-size: 27px;
+    max-width: 60%;
+}
+
+.sujestoes{
+    display: flex;
+    justify-content: space-around;
+    background: #F7F7F7;
+    height: 730px;
+      
+   
+}
+.sujestoes div{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+   
+    align-items: center;
+    height: 730px;
+    text-align: center; 
+}
+.sugestoes-imagens{
+    text-align: justify;
+    color: #000000;
+    width: 400px;
+}
+
+.sugestoes-item{
+    Width:238px;
+    Height:270px;
+}
+.sugestoes-imagens h2 {
+    color: #FF4081;
+
+}
+.sugestoes-discricao{
+    font-size: 17px;
+    margin:40px;
+    padding: 30px;
+} 
+.link-comecarAgora{
+    font-size: 20px;
+    line-height: 23px;
+    width: 233px;
+    padding: 10px;
+    background: #FF4081;
+    border-radius: 62px;
+}   
+.subtitulos {
+  margin-left: 12%;
+  font-size: 37px;
+  line-height: 50px; 
+  color: #009688;
+}
+
+.container-sobreNos{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   align-items: center;
+    
+}
+
+
+
+.sobreNos-item {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 20px;
+    display: flex;
+  
+}
+.sobreNos-item p{
+    width:450px;
+    height: 70.27px;
+    font-size: 18px;
+
+}
+.sobreNos-item div img {
+    margin-right: 30px;
+
+
+}
+
+
+
+.conteudos-extras{
+    max-width: 80%;
+    margin: 0 auto; 
+   
+    display: flex;
+    justify-content:space-around ;
+  
+    
+  
+ 
+    
+  
+}
+
+ .link-post{
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+
+     
+
+}
+.sugestoes-post{
+    width: 319px;
+    height: 193px;
+    background: #C4C4C4;
+   
+    
+  
+    margin-top: 40px;
+    
+}
+.descicaoDeCoteudo{
+    margin-top: 30px;
+    width: 319px;
+    height: 114px;
+    font-size: 18px;
+    line-height: 31px;
+
+ 
+}
+.descicaoDeCoteudo h4{
+    color:#009688
+
+}
+
+
+
+
+.link-post{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+
+.link-post a{
+   
+    font-size: 25px;
+    color: #FF4081; 
+    border: 2px solid #FF4081;
+    font-size: 25px;
+    border-radius: 62px;
+    padding: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -95,7 +316,6 @@ footer{
     margin-top: 200px;
     font-size: 40px;
     color: #FF4081;
-    
 }
 form div{
     display: flex;
@@ -126,7 +346,7 @@ textarea{
     Height:193px; 
     display: block;
     width: 100%;
-    font-size: 16px;
+    font-size: 16px; 
     outline: none;
     resize: none;
 }
@@ -155,6 +375,7 @@ textarea{
 background: url(./image/ilustra-contato.png);
     
 }
+
 
 
 
