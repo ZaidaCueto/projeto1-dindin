@@ -19,7 +19,7 @@ a{
 
 /* header */
 header{
-  
+
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -271,6 +271,179 @@ footer{
 
 
 }
+
+/* aqui começa a estilização de cursos.html */
+.dindinCurso{
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 81px;
+}
+.dindinCursoDiscricao h1{
+    font-size: 60px;
+    line-height: 69px;
+    font-weight: bold;
+    color: #FF4081;
+    padding-bottom: 20px;
+ 
+    
+
+}
+ .dindinCursoDiscricao p{
+
+    font-size:20px;
+   
+
+
+
+ 
+
+}
+
+.containerCursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid  #C4C4C4;
+    
+   
+}
+.containerCursos h2{
+    color: #FF4081;
+    
+
+
+}
+.containerCursos:first-child {
+    border:none;
+  }
+  
+
+.containerCursos div img {
+
+    padding: 30px;
+   margin-right: 80px;
+
+
+
+
+}
+.containerCursos p{
+    Width :724px;
+    Height :105px;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.containerCursos div{
+    margin-top: 10%;
+    margin-bottom: 100px;
+}
+.containerCursos a{
+    font-size: 20px;
+  
+   
+ 
+    padding: 10px;
+    background: #2E948A;
+    border-radius: 62px;
+   
+
+}
+
+
+
+
+
+
+
+/* aqui começa estilizção do blog.html */
+
+
+
+
+
+
+
+.blog{
+    margin-top: 122px;
+    max-width:75%;
+    margin: 0 auto;
+  
+
+}
+.containerBlog{
+    display: flex;
+   
+     
+   
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 122px;
+    margin-bottom:120px;
+     
+ }
+
+  .containerBlogItems h1{
+     Width : 462px;
+     Height: 62px;
+     font-weight: bold;
+     font-size: 47px;
+     color: #009688;
+  }
+ .containerBlogItems p{
+    font-size: 20px;
+     color:#555555;
+     margin-top: 20%;
+     width: 461px;
+    height: 110px;
+ }
+ .contudoBlog{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    flex-wrap: wrap;
+   
+ 
+   
+   
+
+     
+ }
+ .imageBlog{
+    width: 700px;
+    height: 400px;
+    background: #C4C4C4; 
+   
+    
+    
+   
+ }
+
+ 
+ 
+
+ .imageBlogItens h2{
+    color: #FF4081;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.imageBlogItens p {
+    width: 516px;
+    height: 80px;
+    font-size: 17px;
+    margin-bottom: 20%;
+    margin-top: 30px;
+    
+
+     
+  
+}
+
+
+
 
 
 
