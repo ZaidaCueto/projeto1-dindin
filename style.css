@@ -16,51 +16,74 @@ a{
     color: #FDFDFD;
     font-size: 20px;
 }
-div img {
-    display: block;
-    width: 100%;
-  
-}
+
 
 /* header */
 header{
+    background-color: #009688;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25); 
+    height: 15%;
 
+   
+  
+}
+
+.cabecalhoGeral{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    justify-content:space-between;
-    align-items: center;
-    background-color:  #419488;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-    height: 117px;
     flex-wrap: wrap;
-} 
- header div { 
-    margin-left: 50px;
-    padding: 15px;
 }
-header nav{
-    margin-right:50px ;
+
+   
+   
+.cabecalhoGeral{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
 }
-header ul {
+
+
+.cabecalho{
     display: flex;
 }
-header ul li {
-    padding: 10px;
-} 
+
+.cabecalho  a{
+    border-radius: 2px solid ;
+    font-size:23px;
+margin-left: 10px;
+    color: #F7F7F7;
+  
+ 
+
+}
+.cabecalho li a:hover{
+    border-radius: 63px ;
+    background:#FDFDFD; 
+   
+    color: #2E948A;
+}
+
+.cabecalho  a{
+    font-size: max(20px, 1vh);
+}
 
 
 
 /* footer */
 
 footer{
-   
+    background-color:  #419488;
+    
+}
+
+.link-logo{
 
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color:  #419488;
-
     flex-wrap: wrap;
-    height:207px;
+    
 }
 .link-footer2  {
     display: flex;
@@ -85,7 +108,6 @@ footer{
 
  .inicio{
 
-    height: 2500px;
    
     margin-top: 100px;
 }
@@ -93,26 +115,24 @@ footer{
    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
-}
-.container-educaco-finaceira-items{
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;  
 }
+
+.container-educaco-finaceira img{
+     max-width: 100%;
+}
+
  .container-educaco-finaceira div h1{
     Width : 462px;
-    Height: 62px;
     font-weight: bold;
-    font-size: 60px;
+    font-size: max(40px, 4vw);
     color: #FF4081; 
 }
 .container-educaco-finaceira div p{
     font-size: 27px;
     line-height: 31px;
     color:#555555;
-    margin-top: 20%;
+    margin:   50px 30px 80px 0px;
 }
 .container-educaco-finaceira div a{
     border: solid 1px #FF4081;
@@ -123,166 +143,97 @@ footer{
     max-width: 60%;
 }
 
-.sujestoes{
-    display: flex;
-    justify-content: space-around;
-    background: #F7F7F7;
-    height: 730px;
-      
-   
-}
-.sujestoes div{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-   
-    align-items: center;
-    height: 730px;
-    text-align: center; 
-}
-.sugestoes-imagens{
-    text-align: justify;
-    color: #000000;
-    width: 400px;
-}
-
-.sugestoes-item{
-    Width:238px;
-    Height:270px;
-}
-.sugestoes-imagens h2 {
-    color: #FF4081;
-
-}
-.sugestoes-discricao{
-    font-size: 17px;
-    margin:40px;
-    padding: 30px;
-} 
-.link-comecarAgora{
-    font-size: 20px;
-    line-height: 23px;
-    width: 233px;
-    padding: 10px;
-    background: #FF4081;
-    border-radius: 62px;
-}   
-.subtitulos {
-  margin-left: 12%;
-  font-size: 37px;
-  line-height: 50px; 
-  color: #009688;
-}
-
-.container-sobreNos{
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-   align-items: center;
-    
-}
-
-
-
-.sobreNos-item {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 40px;
-    margin: 20px;
-    display: flex;
+.depoimentos{ 
+    max-width: 80%;
+    margin: 0 auto;
   
 }
-.sobreNos-item p{
-    width:450px;
-    height: 70.27px;
-    font-size: 18px;
+.depoimentos h2{
+    color: #009688;
+    font-size: max(30px, 2vw);
+    
+
 
 }
+
+.icones{
+   display: flex;
+   align-items: center;
+
+}
+.icones img{
+    margin-right: 20px;
+
+}
+
+.containerIcones{  
+    max-width:80%; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+   margin-top: 7vh;
+}
+.icones p {
+    width: 363;
+    height: 70.27;
+}
+.containerIconesItems div {
+  
+    margin: 30px;
+}
+
 .sobreNos-item div img {
     margin-right: 30px;
-
-
 }
-
-
-
 .conteudos-extras{
     max-width: 80%;
     margin: 0 auto; 
    
     display: flex;
     justify-content:space-around ;
-  
-    
-  
- 
-    
-  
 }
+.retangulo{
+    background-color: #686868;
+    width: 100%;
+height:20vh;
 
- .link-post{
+}
+.subtiloCardMaisContudo {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 3vh;
+}
+.subtiloCardMaisContudo h2{
+    color: #009688;
     font-weight: bold;
-    display: flex;
-    text-align: center;
-
-     
-
-}
-.sugestoes-post{
-    width: 319px;
-    height: 193px;
-    background: #C4C4C4;
-   
+    font-size: max(30px, 2vw);
     
-  
-    margin-top: 40px;
-    
-}
-.descicaoDeCoteudo{
-    margin-top: 30px;
-    width: 319px;
-    height: 114px;
-    font-size: 18px;
-    line-height: 31px;
 
- 
-}
-.descicaoDeCoteudo h4{
-    color:#009688
 
 }
-
-
-
-
-.link-post{
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-   
-    
-    
-}
-
-.link-post a{
-   
-    font-size: 25px;
-    color: #FF4081; 
+.link-posts{
+    color:#FF4081 ;
     border: 2px solid #FF4081;
-    font-size: 25px;
+    box-sizing: border-box;
     border-radius: 62px;
     padding: 10px;
+
+
 }
+
+
+
+
+
 
 /* aqui começa a estilização de cursos.html */
 .dindinCurso{
-    max-width: 50%;
+    max-width: 80%;
     margin: 0 auto;
-    margin-top: 81px;
+    margin-top: 10vh;
 }
 .dindinCursoDiscricao h1{
-    font-size: 60px;
+    font-size: max(30px, 3vw);
     line-height: 69px;
     font-weight: bold;
     color: #FF4081;
@@ -290,39 +241,38 @@ footer{
 
 }
  .dindinCursoDiscricao p{
-    font-size:20px;
+     font-size: max(15px, 1vw);
 }
 
 .containerCursos{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-top: 3px solid  #C4C4C4;   
 }
 .containerCursos h2{
     color: #FF4081;
+    font-size: max(20px, 1.5vw);
 }
 .containerCursos:first-child {
     border:none;
   }
-.containerCursos div img {
-
-    padding: 30px;
-   margin-right: 80px;
-}
 .containerCursos p{
-    Width :724px;
-    Height :105px;
-    margin-top: 10px;
-    padding-top: 20px;
-    font-weight: 300;
-    font-size: 18px;
+   
+  
+    margin-top: 5px;
+    padding-top: 15x;
+  
+    font-size: max(17px, 1vw);
+
 }
 .containerCursos div{
-    margin-top: 10%;
+    margin: 5%;
     margin-bottom: 100px;
+    margin-top: 5vh;
 }
-.containerCursos a{
+.containerCursos  div a{
+    margin-top: 3vh;
     font-size: 20px; 
     padding: 10px;
     background: #2E948A;
@@ -330,97 +280,61 @@ footer{
 }
 
 
-
-
-
 /*  aqui comça a estilização aulas.html */
 .containerIframe{
-    margin-top:5%; ;
-
- 
+    margin-top:5%; ; 
 }
 .aulaSobreIvestimentos{
     
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
     max-width: 80%;
     margin: 0 auto;
-
 }
-
 .aulaSobreIvestimentos-decricao h1{
     color: #FF4081;
     font-weight: bold;
-     font-size: 55px;
+    font-size: max(30px, 3vw);
      width: 512px;
-    height: 126px;
-   
+  
 }
 .aulaSobreIvestimentos-decricao p{  
     width: 501px;
     
-    font-size: 20px;
-    font-size: 20px;
+   
+    font-size: max(20px, 1vw);
+   
 }
-
-
 .containerIframe2{
     background: #F7F7F7;
-    
- 
-
 }
-
 .containerIframeItems div iframe{
-   
-    width: 462px;
-    height: 261px;
-    
+    width:40vh;
+    height: 30vh;
 }
 .containerIframeItems{
     max-width: 80%; 
-margin: 0 auto;
+    margin: 0 auto;
     display: flex;
-   justify-content: center;
-   flex:auto;
+    justify-content: center;
+  
     border-top: none;
-
    padding: 80px;
    border-top: 3px solid  #C4C4C4;;
-  
-   
-   
-
-
 }
-
 .containerIframeItems:first-child{
     margin-top: 70px;
     border-top: none;
-   
-    
 }
-  
 .containerIframeItems:last-child{ 
-  
     margin-bottom: 150px;
 }
-  
-   
-
-  
-   
-   
-
-    
-
-
 .containerIframeItems div{
     margin-left: 5%;
   
    }
 .containerIframeItems h2 {
-    
     font-weight: bold;
     font-size: 35px;
     color: #FF4081;
@@ -428,7 +342,6 @@ margin: 0 auto;
 }
 .containerIframeItems div p{
     margin-top: 30px;
-  
 }
 
 
@@ -509,6 +422,291 @@ margin: 0 auto;
     margin-bottom: 20%;
     margin-top: 30px;  
 }
+
+/*  aqui começa a estilização de post.html */
+#post{
+   
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+.post{
+    display:block;
+    max-width: 80%;
+    margin: 0 auto;
+
+  
+        
+}
+.postImagemPrincipal{
+text-align: center;
+
+}
+.postImagemPrincipal p {
+    font-size: 1vh;
+}
+.postImagemPrincipal h1 {
+    font-size: max(30px, 3vw);
+    margin-top: 5%;
+    color:#FF4081;
+   
+}
+.postImagem{
+    background-image: url(./image/dinhero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: 50vh;
+    margin-top: 5%;
+    box-sizing: border-box;
+}
+.subtiloPost {
+    color:#2E948A;
+    margin-top: 5vh;
+    
+}
+.postImagemPrincipal-data{
+    margin-top: 10px;
+   
+    font-size: max(5px, 1vw);
+    color: #9D9D9D;
+}
+.post p {
+    font-size:min(20px, 5vw);
+    margin-top: 25px;
+    text-indent: 3em;
+  
+}
+
+
+
+.cardPost {
+    text-align: center;
+  
+}
+.cardPost h1{
+   padding-top: 20px;
+    color:#FF4081;
+    font-size:50px ;
+    margin-top: 50px;
+  
+    line-height: 57px;
+   
+}
+.cardMais-cursos{
+    
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.containerCardMais img{
+    width:288px ;
+    height: 270px;
+}
+
+.containerCardMais h1{
+    color: #FF4081;
+}
+.cardMais-cursos li {
+   
+    margin-top: 30px;
+  
+   
+}
+.cardMais-cursos li p {
+    font-size:  17px;;
+}
+
+.containerCardMais{ 
+   
+    box-sizing: border-box;
+    width:350px ; 
+   
+}
+
+.containerCardMais  {
+    margin-top: 30px;
+
+}
+    .containerCardPostGeral{
+        max-width: 100%;
+        margin: 0 auto;
+        background: #F7F7F7;
+        padding-bottom: 6vh;
+       margin-top:6vh;
+       padding-top: 3vh;
+    
+      
+    }
+    .link-comecarAgora{
+        font-size: 20px;
+        line-height: 23px;
+        
+        padding: 10px;
+        background: #FF4081;
+        border-radius: 62px;
+       
+    }
+
+    
+    @media only screen and (max-width: 1200px){
+        /*Tablets [601px -> 1200px]*/
+        header{
+            height: 50px;
+        }
+        .cabecalhoGeral img{
+            width: 60%;
+        }
+        .cabecalho a{
+            font-size: 2vw;
+        }
+        .container-educaco-finaceira-items {
+            align-items: center;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .container-educaco-finaceira-items h1{
+            font-size: 3vw;
+            margin-right: 0;
+        }
+        .educaco-finaceira{
+        display: none;
+        }
+        .containerCardMais{
+            width: 240px;
+        }
+        .containerCardMais img{
+            width: 200px;
+            height: 200px;
+        }
+        .containerCardMais h1{
+            font-size: 2vh;
+        }
+        .containerIcones {
+            display: flex;
+            justify-content: center;
+            flex-wrap:wrap ;
+        } 
+        .link-logo div  img{
+            width: 15vh;
+            height:10vh;
+        }
+        .link-logo div{
+            display: block;
+            flex-direction: column;
+            
+            justify-content: space-between;
+        }
+        .link-logo div ul li a{
+            font-size: 1.25vh;
+        }
+        .imagem-contato{
+            display: none;
+
+        }
+        .aulaSobreIvestimentos div {
+            text-align: center;
+        }
+        .aulaSobreIvestimentos div img{
+            align-items: center;
+            display: none;
+        }
+        .aulaSobreIvestimentos-decricao p{
+            font-size: 1.25vh;
+        }
+        .containerIframeItems{
+            text-align: center;
+        
+            flex-direction: column;
+        }
+        iframe{   
+            border-radius: 20px;
+       
+        }.containerCursos{
+            display: block;
+            text-align: center;
+        }
+    .containerCursos p{
+        width: 50vh;
+        display: block;
+        text-align: center;
+    }
+    .containerCursos img{
+        width:300px;
+        margin-top: 1vh;
+    }    
+ 
+    }
+   
+    
+    @media only screen and (max-width: 425px){
+        
+        header{
+            display: block;
+            justify-content: center;
+        }
+        .containerCursos div p{
+            text-align: center;
+            width: 250px;
+          
+            font-size:min(20px, 4vw);
+           
+        }
+        .containerCursos  div img{
+            width: 200px;
+        } 
+        .dindinCurso div {
+            width: 28vh;
+            height: 25vh;
+        
+        } 
+        .cabecalhoGeral{
+            max-width: 100%;
+            
+        }
+      
+        
+        .cabecalhoGeral img {
+            width: 10vh;
+            margin-top: 1vh;
+            color: #FF4081;
+        }
+        .cabecalho a{
+            
+          font-size: 10px;
+            
+        } 
+        .dindinCursoDiscricao {
+            text-align: center;
+        }
+     
+      
+      .containerCursos div  p{
+          font-size:13px;
+
+      }
+      .containerCursos  {  
+          margin-top: 50px;
+
+
+      }
+     
+      input {
+        font-size: 15px;
+          width: 400px; ;
+      }
+    
+   
+
+        /*Small smartphones [325px -> 425px]*/
+
+    }
+
+
+
 
 
 
@@ -593,11 +791,11 @@ textarea{
 }
 .enviar-contato{
     margin-top: 20px;
-    font-family: nunito;
+
     text-transform: lowercase;
     color: #FFFFFF;
     font-weight: bold;
-   font-family: Nunito;
+ 
    font-weight: 800;
    font-size: 20px;
    background-color: #FF4081;
