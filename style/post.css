@@ -1,0 +1,185 @@
+
+
+
+/*  aqui começa a estilização de post.html */
+#post{
+   
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+}
+.post{
+  display:block;
+  max-width: 80%;
+  margin: 0 auto;
+
+
+      
+}
+.postImagemPrincipal{
+text-align: center;
+
+}
+.postImagemPrincipal p {
+  font-size: 1vh;
+}
+.postImagemPrincipal h1 {
+  font-size: max(30px, 3vw);
+  margin-top: 5%;
+  color:#FF4081;
+ 
+}
+.postImagem{
+  background-image: url(./dinhero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 50vh;
+  margin-top: 5%;
+  box-sizing: border-box;
+}
+.subtiloPost {
+  color:#2E948A;
+  margin-top: 5vh;
+  
+}
+.postImagemPrincipal-data{
+  margin-top: 10px;
+ 
+  font-size: max(5px, 1vw);
+  color: #9D9D9D;
+}
+.post p {
+  font-size:min(20px, 5vw);
+  margin-top: 25px;
+  text-indent: 3em;
+
+}
+
+
+
+.cardPost {
+  text-align: center;
+
+}
+.cardPost h1{
+ padding-top: 20px;
+  color:#FF4081;
+  font-size:50px ;
+  margin-top: 50px;
+
+  line-height: 57px;
+ 
+}
+.cardMais-cursos{
+  
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  
+}
+.containerCardMais img{
+  width:288px ;
+  height: 270px;
+}
+
+.containerCardMais h1{
+  color: #FF4081;
+}
+.cardMais-cursos li {
+ 
+  margin-top: 30px;
+
+ 
+}
+.cardMais-cursos li p {
+  font-size:  17px;;
+}
+
+.containerCardMais{ 
+ 
+  box-sizing: border-box;
+  width:350px ; 
+ 
+}
+
+.containerCardMais  {
+  margin-top: 30px;
+
+}
+  .containerCardPostGeral{
+      max-width: 100%;
+      margin: 0 auto;
+      background: #F7F7F7;
+      padding-bottom: 6vh;
+     margin-top:6vh;
+     padding-top: 3vh;
+  
+    
+  }
+  .link-comecarAgora{
+      font-size: 20px;
+      line-height: 23px;
+      
+      padding: 10px;
+      background: #FF4081;
+      border-radius: 62px;
+     
+  }
+
+
+
+
+
+
+
+.more-content {
+}
+.list-content{
+margin-bottom: 80px;
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+.primeira_card h3{
+}
+.primeira_card p{
+margin: 30px 0;
+}
+  .primeira_card {
+justify-content: space-around;
+  }
+.primeira_card img {
+   max-width: 400px;
+  max-height: 300px;
+}
+.primeira_card h3 {
+  color: #FF4081;
+  font-size: clamp(15px, 2vw, 20px);
+  margin-top: 10px;
+  font-size: 27px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:  790px) {
+
+.list-content {
+  display: block;
+  justify-content: center;
+text-align: center;
+margin-bottom: 100px;
+}
+.primeira_card img {
+ margin-top: 50px;
+}
+
+
+}

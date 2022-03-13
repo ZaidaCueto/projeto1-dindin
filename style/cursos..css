@@ -1,0 +1,83 @@
+.dindinCurso{
+    margin-top:80px;
+}
+.dindinCursoDiscricao h1{
+    font-size: max(30px, 3vw);
+    line-height: 69px;
+    font-weight: bold;
+    color: #FF4081;
+    padding-bottom: 20px;
+
+}
+ .dindinCursoDiscricao p{
+     font-size: max(15px, 1vw);
+}
+
+.containerCursos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 3px solid  #C4C4C4;   
+    flex-wrap:nowrap;
+   
+}
+.containerCursos h2{
+    color: #FF4081;
+    font-size: max(20px, 1.5vw);
+}
+.containerCursos img{
+    width: 380px;
+    height: 385px;
+    margin: 84px;
+}
+
+.containerCursos:first-child {
+    border:none;
+  }
+.containerCursos  div p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 40px 0;
+}
+.containerCursos  div a{
+font-size: 20px;
+padding: 10px 50px;
+background: #2E948A;
+border-radius: 63px;
+text-decoration: none;
+color: #ffff;
+}
+.containerCursos  div a:hover{
+    color: #2E948A;
+    background:#ffff;
+    border: 2px solid  #2E948A;
+
+    border-radius: 63px;
+
+}
+
+
+@media (max-width: 450px) {
+    .containerCursos{
+        flex-wrap: wrap;
+    }
+    .containerCursos div {
+        margin-bottom: 60px;
+    }
+    .containerCursos img{
+        width: 380px;
+        height: 385px;
+        margin: 84px;
+    }
+    .dindinCurso{
+        margin-top:15px;
+        text-align: center;
+    }
+}    
+
+
+

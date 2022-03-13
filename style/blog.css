@@ -1,0 +1,134 @@
+
+.containerBlog .wrapper{
+    
+}
+.continer-Items1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.contudoBlog{
+    background: #E5E5E5;
+    padding:60px 0;
+
+
+   
+   
+  
+
+}
+.containerBlogItems {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    text-align: center;
+    gap: 50px;
+}
+
+
+
+
+  .containerBlogItems h1{
+     /* Width :405px; */
+     font-weight: bold;
+     font-size: clamp(20px, 3vw, 47px);
+     color: #009688;
+     /* text-align: start; */
+     align-items: center;
+     margin-top: 65px;
+  }
+ .containerBlogItems p{
+    font-size: clamp(10px, 1.50vw, 20px);
+    color: #000000;
+    line-height: 25px;
+    width: 416px;
+    /* height: 110px; */
+    text-align: start;
+    margin: 20px 0;
+ } 
+
+ .imageBlog{
+
+    width: 518px;
+    height: 259px;   
+    background: #C4C4C4; 
+ }
+
+    .imageBlogItens {
+        display: block;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+
+ .imageBlogItens div h2{
+    color: #FF4081;
+    font-weight: 500;
+    font-size: clamp(20px, 2vw, 30px);
+    margin-top: 25px;
+    text-align: center;
+}
+.imageBlogItens p {
+    width:518px;
+    font-size: clamp(8px, 1.50vw, 20px);
+    font-size: 17px;
+    line-height: 20px;
+    margin: 25px  0;
+}
+
+/*  aqui começa a estilização de post.html */
+
+@media (max-width: 450px) {
+    
+ 
+        .containerBlogItems figure{
+            display: none;
+        }
+        
+        
+            
+      .imageBlog{
+
+    width:355px;
+    height:200px;   
+    background: #C4C4C4; 
+ 
+        }
+        .containerBlogItems div p{
+            text-align: center;
+           line-height: 15px;
+        
+             width: 350px;
+         
+         } 
+         .contudoBlog{
+            display: block;
+            justify-content: center;
+        }
+      
+           .containerBlog .wrapper{
+               text-align: center;
+        }
+        .imageBlogItens div h2{
+           width: 350px;
+         }
+        
+         .contudoBlog{
+             display: block;
+             justify-content: center;
+         }
+         .imageBlogItens p {
+            width: 343px;
+            text-align: center;
+         }
+         .containerBlogItems h1 {
+      width: 358px;
+      }    
+
+         
+}
+
+

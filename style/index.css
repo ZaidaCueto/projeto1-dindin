@@ -1,0 +1,240 @@
+#banner {
+}
+
+section#banner div.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  flex-wrap: wrap;
+}
+
+.banner-content 
+  {display: flex;
+  flex-direction: 
+  column;align-items: start;
+  gap: 20px;}
+
+.banner-content h1 {
+  color: #ff4081;
+  font-size: clamp(30px, 3vw, 60px);
+}
+
+.banner-content p {
+  font-size: clamp(15px, 1vw, 27px);
+  color: #555555;
+}
+
+.banner-content a {
+}
+
+.banner-image {
+  padding: 40px;
+}
+
+.banner-image img {
+  width: 100%;
+}
+
+#section-iconi .wrapper  h2{
+  margin-left: 30px;
+  font-size: clamp(15px, 2vw, 37px);
+  padding: 40px 0;
+  color: #009688;
+  line-height: 50px;
+
+
+
+}
+
+
+
+.depoimentos{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+} 
+.depoimentos >div{
+  display: flex;
+  align-items: center;
+  
+
+}
+.depoimentos div img{ 
+ padding: 10px;
+ margin: 10px;
+}
+.depoimentos div span{ 
+   font-weight: bold;
+   
+ }
+ .depoimentos div p{ 
+  width: 363px;
+  margin-bottom: 10px;
+  
+ }
+
+
+
+
+.primeira-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.primeira_card {
+  display: flex;
+  flex-direction: 
+  column;
+  align-items:center;
+  gap: 20px;
+  max-width: 400px;
+  padding: 10px 20px; 
+  text-align: center;
+}
+
+.primeira_card img {
+   max-width: 400px;
+  
+  max-height: 300px;
+}
+
+.primeira_card h3 {
+  color: #FF4081;
+  font-size: clamp(15px, 2vw, 20px);
+  margin-top: 10px;
+  font-size: 27px;
+  width: 500px;
+}
+.depoimentos{
+  display: flex;
+}
+
+
+
+
+#more-content {
+  background: #e5e5e5;
+}
+
+
+#more-content .wrapper {
+  padding: 40px;
+}
+
+#more-content .wrapper h2 {
+  color: #009688;
+  font-size: 32px;
+}
+
+.list-content {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+
+}
+
+.card {
+  margin: 20px;
+  max-width: 320px;
+  margin: 40px;
+}
+
+
+.card h3 {
+  color: #009688;
+  margin-top: 10px;
+  font-size: 27px;
+}
+
+.card p {
+  text-align: justify;
+  font-size: 18px;
+}
+
+ #more-content .wrapper {
+  
+  padding: 40px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:  790px) {
+  .banner-image {
+    display: none;
+  }
+  .depoimentos{
+    display: block;
+    align-items: center;
+  }
+
+
+
+ 
+  .banner-content h1 {
+    font-size: 40px; 
+  }
+  #more-content .wrapper h2 {
+    color: #009688;
+    font-size:  clamp(15px, 2vw, 27px);
+    margin-top: 10px;
+  }
+  .card h3 {
+    color: #009688;
+    margin-top: 10px;
+    font-size: clamp(15px, 2vw, 27px);
+  }
+  
+  .card p {
+    
+    font-size:  clamp(13px, 2vw, 18px);
+  }
+
+  #more-content .wrapper{
+  display: block;
+  flex-direction: column; 
+  }
+
+
+
+.depoimentos div span{  
+  font-size: 10px;
+ }
+ .depoimentos .iconis img{ 
+ padding: 0;
+ width: 80px;
+ }
+}
+  
+ @media (max-width:  400px) {
+  .depoimentos div p{
+    width: 80%;
+    font-size: 11px;
+   }
+  
+   #more-content .wrapper{
+    display: block;
+    flex-direction: column; 
+    }
+   .primeira_card h3{
+    max-width: 300px;
+    display: block;
+    justify-content: center;
+
+   }
+  } 
+ 

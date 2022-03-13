@@ -1,0 +1,83 @@
+
+.ContainerAulas{
+display: flex;
+justify-content: space-around;
+margin: 80px 0 20px;
+padding: 40px 0;
+} 
+.ContainerAulas div h1{
+color: #FF4081;
+width: 512px;
+font-size: 55px;
+}
+.ContainerAulas div p{
+width: 461px;
+font-size: 20px;
+line-height: 23px;
+}
+ .descricaoAula1{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 40px 0;
+border-top: 4px solid #C4C4C4;
+flex-wrap: wrap;
+}
+.descricaoAula1:first-child {
+    border-top: 
+    none;margin-top: 50px;
+}
+.descricaoAula1:last-child {
+    margin-bottom: 50px;
+}
+.descricaoAula2{
+display: flex;
+}
+ .descricaoAula3{
+display: flex;
+}
+.containerVideos div{
+    font-size: 20px;
+    line-height: 23px;
+}
+ .descricaoAula1 h2{
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.descricaoAula1 p{
+    margin: 30px 0;
+    width: 501px;
+    width: 501;
+}
+
+
+
+
+
+ 
+
+@media (max-width: 450px) {
+
+
+.descricaoAula1 div iframe{
+    width: 400px;
+}
+.descricaoAula1 p {
+    width: 400px;
+}
+.ContainerAulas div img{
+    display: none;
+}
+
+.ContainerAulas div h1 {
+    width: 400px;
+}
+.ContainerAulas div p {
+    width: 400px;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+}
