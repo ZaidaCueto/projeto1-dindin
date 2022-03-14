@@ -12,6 +12,9 @@
  .dindinCursoDiscricao p{
      font-size: max(15px, 1vw);
 }
+.dindinCursoDiscricao{
+    margin-left: 75px;
+}
 
 .containerCursos{
     display: flex;
